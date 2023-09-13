@@ -18,11 +18,6 @@ void times_table(void)
 			_putchar(' ');
 
 			ans = i * j;
-			/*if (j > 0)
-			{
-				_putchar(',');
-				_putchar(' ');
-			}*/
 			if (ans < 10)
 			{
 				_putchar(' ');
