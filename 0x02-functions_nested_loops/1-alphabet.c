@@ -1,4 +1,4 @@
-extern int _putchar(char c);
+#include "main.h"
 /**
  * print_alphabet - prints lower case letters
  * Return: nothing
@@ -14,5 +14,4 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
-	return;
 }
