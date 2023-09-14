@@ -27,7 +27,7 @@ long findLargestPrimeFactor(long n)
 	{
 		largest = n;
 	}
-	return largest;
+	return (largest);
 }
 
 /**
@@ -35,7 +35,7 @@ long findLargestPrimeFactor(long n)
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	long number;
 	long largestPrimeFactor;
@@ -44,5 +44,5 @@ int main()
 	largestPrimeFactor = findLargestPrimeFactor(number);
 
 	printf("%ld\n", largestPrimeFactor);
-	return 0;
+	return (0);
 }
