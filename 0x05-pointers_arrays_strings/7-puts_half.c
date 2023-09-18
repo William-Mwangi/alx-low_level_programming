@@ -9,11 +9,11 @@
 
 void puts_half(char *str)
 {
-	int sizeToPrint, size;
+	int sizeToPrint, size, i;
 
 	size = strlen(str);
 
-	if (strlen(str) % 2 == 0)
+	if (size % 2 == 0)
 	{
 		sizeToPrint = size / 2;
 	}
@@ -22,10 +22,9 @@ void puts_half(char *str)
 		sizeToPrint = (size - 1) / 2;
 	}
 
-	while (str[sizeToPrint] != '\0')
+	for (i = sizeToPrint; str[i] != '\0'; i++)
 	{
-		_putchar(str[sizeToPrint]);
-		sizeToPrint++;
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
