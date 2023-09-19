@@ -20,6 +20,7 @@ void puts_half(char *str)
 	else
 	{
 		sizeToPrint = (size - 1) / 2;
+		sizeToPrint += 1;
 	}
 
 	for (i = sizeToPrint; str[i] != '\0'; i++)
