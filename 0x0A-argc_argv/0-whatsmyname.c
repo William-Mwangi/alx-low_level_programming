@@ -9,11 +9,10 @@
 
 int main(int argc, char *argv[])
 {
-	while (argc--)
+	if (argc > 0)
 	{
 		printf("%s", argv[0]);
 	}
 	printf("\n");
-	exit(EXIT_SUCCESS);
 	return (0);
 }
