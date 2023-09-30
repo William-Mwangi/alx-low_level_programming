@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
  * main - check code
  * @argc: argc
  * @argv: argv

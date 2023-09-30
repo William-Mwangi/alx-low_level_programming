@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**main - check code
+/**
+ * main - check code
  * @argc: argc
  * @argv: argv
  * Return: int
