@@ -27,12 +27,22 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	current = *head;
 	for (i = 0; i <= idx; i++)
 	{
+		if (current == NULL)
+		{
+			free(newNode);
+			return (NULL);
+		}
 		if (i == idx)
 		{
 			newNode->next = current->next;
 			current->next = newNode;
 		}
 		current = current->next;
+	}
+	if (current == NULL)
+	{
+		free(newNode);
+		return (NULL);
 	}
 	return (newNode);
 }
