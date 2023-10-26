@@ -29,5 +29,7 @@ size_t print_listint_safe(const listint_t *head);
 listint_t *reverse_listint(listint_t **head);
 listint_t *find_listint_loop(listint_t *head);
 unsigned int binary_to_uint(const char *b);
+void print_binary(unsigned long int n);
+int _putchar(char c);
 
 #endif
